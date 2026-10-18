@@ -1,0 +1,153 @@
+# Kodi Media Center language file
+# Addon Name: Lactea
+# Addon id: visualization.lactea
+# Addon Provider: M0Rf30
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: https://github.com/M0Rf30/visualization.lactea\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (https://kodi.tv/addons)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "Addon Summary"
+msgid "Lactea - a pure-Rust MilkDrop / projectM music visualizer"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "Lactea is a MilkDrop 2/3 and projectM-compatible music visualizer written in Rust on wgpu. It reads the whole .milk preset format (custom waves and shapes, per-frame and per-vertex code, warp and composite shaders) and renders them in real time to the music you are hearing. Point it at a folder of presets and it does the rest."
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Requires a GPU with Vulkan, Metal or DX12 support (lavapipe works in software)."
+msgstr ""
+
+# settings labels
+
+msgctxt "#30000"
+msgid "General"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Preset folder"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Folder containing .milk / .milk2 / .prjm presets. Leave empty to use the system projectM preset folder (e.g. /usr/share/projectM/presets) if present, otherwise the built-in idle preset."
+msgstr ""
+
+msgctxt "#30003"
+msgid "Texture folder"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Folder containing the images presets reference (sampler textures). Optional."
+msgstr ""
+
+msgctxt "#30005"
+msgid "Shuffle mode"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Smooth preset duration"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Seconds a soft cut blends between the old and the new preset."
+msgstr ""
+
+msgctxt "#30008"
+msgid "Preset duration"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Seconds a preset runs before switching to the next."
+msgstr ""
+
+msgctxt "#30010"
+msgid "Beat sensitivity"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Compatibility mode"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Which implementation to follow where projectM, MilkDrop 2 and MilkDrop 3 differ."
+msgstr ""
+
+msgctxt "#30013"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30014"
+msgid "projectM"
+msgstr ""
+
+msgctxt "#30015"
+msgid "MilkDrop 2"
+msgstr ""
+
+msgctxt "#30016"
+msgid "MilkDrop 3"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Beat-triggered preset changes"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Let a loud beat switch to the next preset before its time is up."
+msgstr ""
+
+msgctxt "#30019"
+msgid "How easily a beat triggers a preset change (needs beat-triggered preset changes)."
+msgstr ""
+
+msgctxt "#30022"
+msgid "Maximum render height"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Frames are rendered at most this tall and scaled to the screen. Lower values cut the per-frame GPU read-back cost."
+msgstr ""
+
+msgctxt "#30024"
+msgid "Unlimited"
+msgstr ""
+
+msgctxt "#30025"
+msgid "2160p (4K)"
+msgstr ""
+
+msgctxt "#30026"
+msgid "1440p"
+msgstr ""
+
+msgctxt "#30027"
+msgid "1080p"
+msgstr ""
+
+msgctxt "#30028"
+msgid "720p"
+msgstr ""
+
+msgctxt "#30029"
+msgid "540p"
+msgstr ""
+
+# setting value formats
+
+msgctxt "#30020"
+msgid "{0:d} sec"
+msgstr ""
+
+msgctxt "#30021"
+msgid "{0:d} %"
+msgstr ""

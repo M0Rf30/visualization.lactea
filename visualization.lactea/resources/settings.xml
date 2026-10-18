@@ -1,0 +1,89 @@
+<settings version="1">
+  <section id="addon" label="0" help="0">
+    <category id="main" label="30000" help="0">
+      <group id="1" label="0">
+        <setting id="preset_folder" type="path" label="30001" help="30002">
+          <default></default>
+          <constraints>
+            <allowempty>true</allowempty>
+          </constraints>
+          <control type="button" format="path"/>
+        </setting>
+        <setting id="texture_folder" type="path" label="30003" help="30004">
+          <default></default>
+          <constraints>
+            <allowempty>true</allowempty>
+          </constraints>
+          <control type="button" format="path"/>
+        </setting>
+        <setting id="shuffle" type="boolean" label="30005" help="0">
+          <default>true</default>
+          <control type="toggle" />
+        </setting>
+        <setting id="smooth_duration" type="integer" label="30006" help="30007">
+          <default>3</default>
+          <constraints>
+            <minimum>1</minimum>
+            <step>1</step>
+            <maximum>30</maximum>
+          </constraints>
+          <control type="spinner" format="string">
+            <formatlabel>30020</formatlabel>
+          </control>
+        </setting>
+        <setting id="preset_duration" type="integer" label="30008" help="30009">
+          <default>20</default>
+          <constraints>
+            <minimum>1</minimum>
+            <step>1</step>
+            <maximum>120</maximum>
+          </constraints>
+          <control type="spinner" format="string">
+            <formatlabel>30020</formatlabel>
+          </control>
+        </setting>
+        <setting id="hard_cut" type="boolean" label="30017" help="30018">
+          <default>false</default>
+          <control type="toggle" />
+        </setting>
+        <setting id="beat_sens" type="integer" label="30010" help="30019">
+          <default>50</default>
+          <constraints>
+            <minimum>0</minimum>
+            <step>10</step>
+            <maximum>100</maximum>
+          </constraints>
+          <control type="spinner" format="string">
+            <formatlabel>30021</formatlabel>
+          </control>
+        </setting>
+        <setting id="compat_mode" type="integer" label="30011" help="30012">
+          <default>3</default>
+          <constraints>
+            <options>
+              <option label="30013">3</option> <!-- auto -->
+              <option label="30014">0</option> <!-- projectM -->
+              <option label="30015">1</option> <!-- MilkDrop 2 -->
+              <option label="30016">2</option> <!-- MilkDrop 3 -->
+            </options>
+          </constraints>
+          <control type="list" format="string" />
+        </setting>
+        <setting id="max_height" type="integer" label="30022" help="30023">
+          <default>1080</default>
+          <constraints>
+            <options>
+              <option label="30024">0</option> <!-- unlimited -->
+              <option label="30025">2160</option>
+              <option label="30026">1440</option>
+              <option label="30027">1080</option>
+              <option label="30028">720</option>
+              <option label="30029">540</option>
+            </options>
+          </constraints>
+          <control type="list" format="string" />
+        </setting>
+      </group>
+    </category>
+  </section>
+</settings>

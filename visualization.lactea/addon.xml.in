@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="visualization.lactea"
+  version="21.0.0"
+  name="Lactea"
+  provider-name="M0Rf30">
+  <requires>@ADDON_DEPENDS@</requires>
+  <extension
+    point="xbmc.player.musicviz"
+    library_@PLATFORM@="@LIBRARY_FILENAME@"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>@PLATFORM@</platform>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/M0Rf30/visualization.lactea</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+    </assets>
+    <summary lang="en_GB">Lactea - a pure-Rust MilkDrop / projectM music visualizer</summary>
+    <description lang="en_GB">Lactea is a MilkDrop 2/3 and projectM-compatible music visualizer written in Rust on wgpu. It reads the whole .milk preset format (custom waves and shapes, per-frame and per-vertex code, warp and composite shaders) and renders them in real time to the music you are hearing. Point it at a folder of presets and it does the rest.</description>
+    <disclaimer lang="en_GB">Requires a GPU with Vulkan, Metal or DX12 support (lavapipe works in software).</disclaimer>
+    <website>https://github.com/M0Rf30/lactea</website>
+    <news>v21.0.0: first public release, for Kodi 21 (Omega) with Lactea 0.2.2</news>
+  </extension>
+</addon>
